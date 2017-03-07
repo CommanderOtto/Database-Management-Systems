@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Raju's World - User Home Page</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo"><strong>Raju's World</strong></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+					<div class="image fit">
+						<img src="images/themepark3.jpg" alt="" />
+					</div>
+					<div class="page-header">	
+						<h1>Welcome Admin!</h1>
+						<p>Review the following options for database and themepark operations maintenance:</p>
+					</div>
+					
+					
+					<div class="page-header">
+						<h3>Edit Ride Information:</h3>
+					</div>	
+					
+					<table class="table table-striped">
+					 <tr>
+						<th>Ride</th>
+						<th>Type</th>
+						<th>Park</th>							
+						<th>Rating</th>
+						<th>Edit</th>
+						<th>Delete</th>
+					  </tr>
+					  <tr>
+						<td>Speed Splash</td>
+						<td>Water</td>
+						<th>Raju's World - Hyderabad, India</th>
+						<td>10</td>
+						<td><button class="btn btn-primary btn-xs" data-title="Edit"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+						<td><button class="btn btn-danger btn-xs" data-title="Delete"><span class="glyphicon glyphicon-trash"></span></button></p></td>
+					  </tr>
+					  <tr>
+						<td>Otto's Expedition</td>
+						<td>Roller Coaster</td>
+						<th>Raju's World - Salvador,Brazil</th>
+						<td>10</td>
+						<td><button class="btn btn-primary btn-xs" data-title="Edit"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+						<td><button class="btn btn-danger btn-xs" data-title="Delete"><span class="glyphicon glyphicon-trash"></span></button></p></td>
+					  </tr>
+					  <tr>
+						<td>Raju's Jungle Trek</td>
+						<td>Virtual Ride</td> 
+						<th>Raju's World - Hyderabad, India</th>
+						<td>10</td>
+						<td><button class="btn btn-primary btn-xs" data-title="Edit"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+						<td><button class="btn btn-danger btn-xs" data-title="Delete"><span class="glyphicon glyphicon-trash"></span></button></p></td>
+					  </tr>
+					</table>
+					
+					<div class="page-header">
+						<h3>Add Rides:</h3>
+					</div>	
+					
+					<form>
+						<div id="extrapadding">
+							<h5>Ride</h5>
+							<input type="text" class="form-control" placeholder="Text input">
+						</div>
+						
+						<div id="extrapadding">
+							<h5>Type</h5>
+							<input type="text" class="form-control" placeholder="Text input">
+						</div>
+						
+						<div id="extrapadding">
+							<h5>Park</h5>
+							<input type="text" class="form-control" placeholder="Text input">
+						</div>
+						
+						<div id="extrapadding">
+							<button type="button" class="btn btn-primary">Submit</button>
+						</div>
+					</form>
+					
+					
+					<div class="page-header">
+						<h3>Edit Restaurant Information:</h3>
+					</div>
+					
+					<table class="table table-striped">
+					 <tr>
+						<th>Restaurant Name</th>
+						<th>Type</th>
+						<th>Price Range</th>							
+						<th>Edit</th>
+						<th>Delete</th>
+					  </tr>
+					  <tr>
+						<td>Nirvana</td>
+						<td>Indian Food</td>
+						<th>$$</th>
+						<td><button class="btn btn-primary btn-xs" data-title="Edit"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+						<td><button class="btn btn-danger btn-xs" data-title="Delete"><span class="glyphicon glyphicon-trash"></span></button></p></td>
+					  </tr>
+					  <tr>
+						<td>Bahia</td>
+						<td>Brazilian Food</td>
+						<th>$$$</th>
+						<td><button class="btn btn-primary btn-xs" data-title="Edit"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+						<td><button class="btn btn-danger btn-xs" data-title="Delete"><span class="glyphicon glyphicon-trash"></span></button></p></td>
+					  </tr>
+					  <tr>
+						<td>Ultimate Burger Joint</td>
+						<td>American Food</td>
+						<th>$$</th>
+						<td><button class="btn btn-primary btn-xs" data-title="Edit"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+						<td><button class="btn btn-danger btn-xs" data-title="Delete"><span class="glyphicon glyphicon-trash"></span></button></p></td>
+					  </tr>
+					  
+					</table>
+					
+					<div class="page-header">
+						<h3>Add Restaurants:</h3>
+					</div>
+					
+					<form>
+						
+						<div id="extrapadding">
+							<h5>Restaurant Name</h5>
+							<input type="text" class="form-control" placeholder="Text input">
+						</div>
+						
+						
+						<div id="extrapadding">
+							<h5>Type</h5>
+							<input type="text" class="form-control" placeholder="Text input">
+						</div>
+						
+						
+						<div id="extrapadding">
+							<h5>Price Range</h5>
+							<input type="text" class="form-control" placeholder="Text input">
+						</div>
+						
+						<div id="extrapadding">
+							<button type="button" class="btn btn-primary">Submit</button>
+						</div>
+					</form>
+				
+					
+					
+					<div class="page-header">
+						<h3>Admin Reporting</h3>
+						<p>Select Reporting Option (dropdown):</p>
+					</div>
+					
+					<form>
+						<div id="extrapadding">
+							<button type="button" class="btn btn-primary">Submit</button>
+						</div>
+					</form>
+					
+					<table class="table table-striped">
+					<!-- Insert code here to populate table with different reporting results from SQL -->
+					<!-- 
+						o	Total number of accounts.
+						o	Total number of accounts created this month.
+						o	Total number of users on each ride.
+						o	Revenue from each ride (ticket price x quantity)
+						o	Listing of all rides (from most popular to least popular based on rating)
+						o	Listing of all rides (from most popular to least popular based on usage)
+						o	Most sold food item.
+						o	Number of Platinum accounts vs regular accounts.
+					-->
+					</table>
+					
+					
+					<div class="page-header">
+						<h1>Logout</h1>
+					</div>
+					<div id="extrapadding">
+						<button type="button" class="btn btn-primary btn-lg">Large button</button>
+					</div>
+					
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<div class="copyright">
+					&copy; Raju's World 2017. Otto Negron, Raju Pusapati
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
